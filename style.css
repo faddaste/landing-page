@@ -1,0 +1,7 @@
+.header-links,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
