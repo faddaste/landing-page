@@ -1,7 +1,37 @@
-.header-links,
 a {
-    list-style-type: none;
     text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    padding: 0 100px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.header-links{
+    display: flex;
+    gap: 16px;
     padding: 0;
     margin: 0;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.hero{
+    display: flex;
+    padding: 100px;
 }
