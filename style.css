@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: white;
 }
 
 body{
@@ -14,11 +15,16 @@ body{
 
 .header{
     display: flex;
-    padding: 0 100px;
+    justify-content: space-between;
+    margin: -8px;
+    background-color: rgb(110, 56, 20);
+    padding: 5px 0;
+    padding-right: 55px;
+    padding-left: 105px;
 }
 
 .logo{
-    width: 150px;
+    width: 60px;
 }
 
 .header-links{
@@ -28,10 +34,66 @@ body{
     margin: 0;
     list-style-type: none;
     align-items: center;
-    
 }
 
 .hero{
     display: flex;
-    padding: 100px;
+    padding: 100px 200px;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main-text{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+}
+
+.hero-button{
+    font-size: 24px;
+    align-self: center;
+    margin-top: 75px;
+}
+
+.hero-img{
+    width: 500px;
+    align-self: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.info-title{
+
+}
+
+.info-images{
+    display: flex;
+    gap: 80px;
+    padding-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-img{
+    width: 250px;
+    height: 250px;
 }
