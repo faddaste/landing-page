@@ -6,7 +6,7 @@ a {
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
 
@@ -55,7 +55,7 @@ body{
 .hero{
     display: flex;
     padding: 70px 200px 100px 200px;
-    gap: 50px;
+    gap: 75px;
     align-items: center;
     justify-content: space-around; /*space around allows to have centered items after they wrap */
     flex-wrap: wrap;
@@ -69,6 +69,7 @@ body{
     text-align: center;
     flex: 1 1 400px; /* setting flex-basis equal to min width will allow the two elements to shrink first then wrap after hitting the min-width*/
     min-width: 400px;
+    max-width: 800px;
     color: #f9faf8;
 }
 
@@ -84,9 +85,8 @@ body{
 
 a.hero-button{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 75px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     align-self: center;
     border: 0px #3882f6;
     border-radius: 10px;
@@ -102,13 +102,15 @@ a.hero-button{
 .hero-img{
     width: 500px;
     align-self: center;
+    border: #e5e7eb solid 3px;
+    border-radius: 10px;
 }
 
 .information{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 150px;
 }
 
@@ -141,7 +143,7 @@ a.hero-button{
 
 .quote{
     background-color: #e5e7eb;
-    padding: 100px 200px;
+    padding: 75px 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,7 +167,48 @@ a.hero-button{
     min-width: 90px;
 }
 
+.adopt{
+    padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.adopt-container{
+    display: flex;
+    width: 1000px;
+    padding: 50px 50px;
+    gap: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 350px;
+}
+
+.adopt-title{
+    font-size: 26px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.adopt-subtext{
+    color: #e5e7eb;
+}
+
+.bottom-button{
+    font-size: 18px;
+    padding: 8px 24px;
+    align-self: center;
+    border: 0px #3882f6;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+}
+
 .footer{
     background-color: #1f2937;
     text-decoration: underline;
+    text-align: center;
+    padding: 24px 0px;
 }
