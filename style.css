@@ -86,7 +86,7 @@ body{
 a.hero-button{
     font-size: 20px;
     margin-top: 75px;
-    padding: 10px 15px;
+    padding: 10px 20px;
     align-self: center;
     border: 0px #3882f6;
     border-radius: 10px;
@@ -141,6 +141,13 @@ a.hero-button{
     border-radius: 10px;
 }
 
+.info-subtext{
+    max-width: 220px;
+    align-self: center;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
 .quote{
     background-color: #e5e7eb;
     padding: 75px 200px;
@@ -160,7 +167,7 @@ a.hero-button{
 }
 
 .quote-citation{
-    padding-left: 300px;
+    padding-left: 350px;
     font-size: 18px;
     font-weight: 800;
     color: #1f2937;
