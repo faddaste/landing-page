@@ -1,12 +1,13 @@
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
 }
 
 body{
     display: flex;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
 }
 
 .top{
@@ -17,7 +18,6 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    margin: -8px -8px 0px -8px;
     background-color: #1f2937;
     padding: 5px 0;
     padding-right: 55px;
@@ -54,8 +54,7 @@ body{
 
 .hero{
     display: flex;
-    padding: 100px 200px;
-    margin: 0 -8px;
+    padding: 70px 200px 100px 200px;
     gap: 50px;
     align-items: center;
     justify-content: space-around; /*space around allows to have centered items after they wrap */
@@ -110,16 +109,21 @@ a.hero-button{
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 150px;
 }
 
 .info-title{
-    
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .info-images{
     display: flex;
     gap: 80px;
     padding-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .container{
@@ -131,4 +135,37 @@ a.hero-button{
 .info-img{
     width: 250px;
     height: 250px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 600px;
+    min-width: 400px;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.quote-citation{
+    padding-left: 300px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1f2937;
+    min-width: 90px;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-decoration: underline;
 }
